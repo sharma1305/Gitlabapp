@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.GitlabappScriprt1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>testing cicd build pipeline</description>
+        <name>GitlabappScriprt1</name>
+        <script><![CDATA[var GitlabappScriprt1 = Class.create();
+GitlabappScriprt1.prototype = {
+    initialize: function() {
+    },
+// this is test feature
+    type: 'GitlabappScriprt1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-04 09:46:15</sys_created_on>
+        <sys_id>a12869bd47279110a6eebce5536d430e</sys_id>
+        <sys_name>GitlabappScriprt1</sys_name>
+        <sys_package display_value="Gitlabapp" source="0967edf9472f5110a6eebce5536d434e">0967edf9472f5110a6eebce5536d434e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gitlabapp">0967edf9472f5110a6eebce5536d434e</sys_scope>
+        <sys_update_name>sys_script_include_a12869bd47279110a6eebce5536d430e</sys_update_name>
+    </sys_script_include>
+</record_update>
